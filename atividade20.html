@@ -9,8 +9,9 @@
    <h1>atividade20</h1>
     <label for="">Digite seu nome</label>
     <input type="text" id="nome"></input>
-    
-      <label for="">Digite o primeiro</label>
+
+
+  <label for="">Digite o primeiro</label>
     <input type="number" id="primeiro"></input>
 
     <label for="">Digite o segundo</label>
@@ -27,14 +28,20 @@
         function mostrar() {
             
             const nome = document.getElementById("nome").value
-            const primeiro = document.getElementById("primeiro").value
-            const segundo = document.getElementById("segundo").value
-            const terceiro = document.getElementById("terceiro").value
-            
+             
+    
 
-            document.getElementById("resultado").innerHTML = " Bem vindo "+nome+ " numero "+primeiro+ " numero "+segundo+ " numero "+terceiro;
-        }
+            
+            const primeiro = Number(document.getElementById("primeiro").value)
+            const segundo = Number(document.getElementById("segundo").value)
+            const terceiro = Number(document.getElementById("terceiro").value)
+             const resultado = primeiro * segundo * terceiro
+                
+             
+
+            document.getElementById("resultado").innerHTML = " Bem vindo "+nome+ " numero "+primeiro+ " numero "+segundo+ " numero "+terceiro+ " resultado "+resultado;
         
+        }
     </script>
 
 
