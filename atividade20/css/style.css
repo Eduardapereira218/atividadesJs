@@ -1,0 +1,75 @@
+.formulario button{
+    width: 100%;
+    text-align: center;
+}
+
+form {
+
+    width: 20%;
+    height: 100%;
+    background-color: rgb(32, 10, 38);
+    border-radius: 20px;
+    padding: 80px;
+    margin:auto ;
+    margin-top: 10%;
+
+
+}
+
+h1 {
+    text-align: center;
+}
+
+ body {
+            font-family: Arial, sans-serif;
+            background: linear-gradient(135deg, lch(9.5% 36.19 333.04), #190032);
+            display: flex;
+            justify-content: auto;
+            align-items: center;
+            height: 50vh;
+        }
+
+        .container {
+            background: rgb(0, 0, 0);
+            padding: 10px;
+            border-radius:10px;
+            width: 350px;
+            box-shadow: 0 5px 15px rgb(255, 158, 158);
+        }
+
+        h2 {
+            text-align: center;
+            color: #ffffff;
+        }
+
+        input {
+            width: 100%;
+            padding: 10px;
+            margin-top: 10px;
+            margin-bottom: 20px;
+            border: 8px solid #ffffff;
+            border-radius: 100px;
+        }
+
+        button {
+            width: 100%;
+            padding: 10px;
+            background: #000000;
+            color: rgb(255, 255, 255);
+            border: 10;
+            border-radius: 8px;
+            cursor: pointer;
+        }
+
+        button:hover {
+            background: #000000;
+        }
+
+        .resultado {
+            margin-top: 20px;
+            padding: 10px;
+            background: #ffffff;
+            border-radius: 8px;
+            text-align: center;
+            font-weight: bold;
+        }
