@@ -1,0 +1,20 @@
+body{
+    background:#310000;
+}
+
+.container{
+    margin-top:40px;
+}
+
+table{
+    background:rgb(179, 112, 241);
+}
+
+h2{
+    text-align:center;
+    margin-bottom:30px;
+}
+
+form{
+    margin-bottom:20px;
+}
